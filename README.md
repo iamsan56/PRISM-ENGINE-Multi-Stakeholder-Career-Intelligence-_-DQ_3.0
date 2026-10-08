@@ -8,7 +8,7 @@ PRISM is a deterministic assessment engine combined with Generative AI that brid
 - **Financial Constraints Engine**: Evaluates maximum family budget, loan tolerance, and calculates exact EMIs vs Career ROI.
 - **PSCI (Parent-Student Conflict Index)**: Mathematically models the gap in expectations and outputs compromise pathways.
 - **Hyper-Local Targeting**: Integrated OpenStreetMap/Leaflet to find relevant colleges based on actual GPS coordinates.
-- **AI Explanability**: Powered by Gemini 1.5 Flash to synthesize results into conversational, actionable guidance.
+- **AI Explanability**: Powered by Gemini 2.5 Flash to synthesize results into conversational, actionable guidance.
 
 ## Tech Stack
 - **Frontend:** React, Vite, Tailwind CSS, Recharts, Framer Motion, Leaflet
