@@ -1,0 +1,207 @@
+### SLIDE 1
+- DATAQUEST 3.0
+- ROUND 1
+- PRISM ENGINE  ·  PROBLEM STATEMENT DQNM  ·  NANO MECH LABS
+- PROJECT DETAILS
+- PROJECT TITLE
+- PRISM Engine: Multi-Dimensional STEAM Career Guidance &amp; Hyper-Local Innovation Platform
+- ONE-LINE PITCH
+- An AI engine that turns student psychometrics and parent finances into affordable, conflict-aware STEAM career pathways, computed with transparent math and explained by Gemini.
+- TRACK
+- DQNM · STEAM Career Guidance &amp; Hyper-Local Innovation (Nano Mech Labs)
+- TEAM &amp; MEMBERS
+- TEAM
+- Four Spades
+- PARTICIPANTS
+- •  Palanivel Rajan S — 24BEC1005
+- •  Sanjeev D — 24BEC1053
+- •  PG Navin Kumar — 24BEC1055
+- •  M Yashwant — 24BEC1096
+
+### SLIDE 2
+- DATAQUEST 3.0  ·  ROUND 1
+- 02  
+- Problem Definition
+- Who is impacted · Today's workarounds · Why current methods fail · Concrete proof
+- 01 · AUDIENCE
+- WHO &amp; HOW OFTEN
+- students (Grade 9–12, UG) and their parents across India; ~90% choose careers without structured guidance.
+- every stream, course and college decision, for every child in every admission cycle.
+- one counsellor per ~15,000 students; parents, the real financiers, are left out.
+- 02 · STATUS QUO
+- CURRENT APPROACH
+- Hearsay, peer choices and narrow exam cut-offs drive decisions.
+- 93% of youth know only 7–10 careers (medicine, engineering, law, civil services, IT) out of 250+ paths.
+- Static personality quizzes or generic chatbots; human counsellors are scarce and costly.
+- Parents decide on gut feel about cost and “safe” careers; scholarships are found late.
+- 03 · DEFICIENCY
+- WHY IT FALLS SHORT
+- ignores family budget, loan capacity and risk appetite, causing debt and conflict.
+- no ROI, salary trajectory or regional demand; emerging STEAM fields stay invisible.
+- 1:15,000 counsellor ratio; LLM chatbots hallucinate fees and careers.
+- mismatched streams, dropouts, graduate underemployment.
+- 04 · VALIDATION
+- EVIDENCE
+- choose blindly; engineering job-readiness only 20–25% (India Today, Sep 2025).
+- know real course costs; 81% report decision barriers (ETV Bharat, Sep 2025).
+- mismatched streams; 73% extreme stress at stream selection (UNESCO, 2025).
+- regret choices by 25; 85–86% of graduates feel unprepared (Dahiya, SSRN, 2025).
+
+### SLIDE 3
+- DATAQUEST 3.0  ·  ROUND 1
+- 03  
+- Proposed Solution
+- System identity · End-to-end user workflow · Competitive advantages
+- SOLUTION CORE
+- PRISM ENGINE: Multi-Stakeholder Career Intelligence
+- PRISM vectorizes a student’s psychometric profile and a parent’s financial constraints, solves feasibility with deterministic math, and returns ranked, affordable STEAM pathways with a Parent-Student Conflict Index (PSCI) and an explainable roadmap. Gemini only explains verified numbers.
+- USER FLOW
+- 1. USER INPUT
+- Student: RIASEC, aptitude, marks. Parent: budget, loan cap, risk, radius
+- ➔
+- 2. PROCESSING
+- Vectorize → Fit + PSCI + Financial solver → MAUT ranker
+- ➔
+- 3. OUTPUT
+- Top-3 pathways, PSCI gauge, EMI/payback, scholarships, SWOT roadmap
+- ADVANTAGE
+- WHY IT IS BETTER
+- Replaces blind choice with a 10-D student match plus a 4-D family constraint vector.
+- Fit, EMI and payback are computed, not generated: no hallucinated fees.
+- Pipeline under 45 ms (1.2 s with Gemini); near-zero run cost.
+- INNOVATION
+- WHAT IS DIFFERENT
+- a quantified parent-student conflict score.
+- scholarships bridge tuition gaps first.
+- MAUT blends fit, conflict, payback, ROI, demand.
+- math fallback if the API fails.
+
+### SLIDE 4
+- DATAQUEST 3.0  ·  ROUND 1
+- 04  
+- System Architecture
+- System diagram is the primary visual · Engineering decisions · Validation
+- SYSTEM DIAGRAM
+- TECH 01
+- KEY TECHNICAL DECISION
+- Math first, LLM second. FastAPI + NumPy compute cosine fit, PSCI and amortization deterministically, so no hallucinated careers or fees. Gemini 2.5 Flash only explains verified JSON.
+- TECH 02
+- HARDEST PART
+- Aligning student and parent vectors without discarding ambitious careers. We built PSCI (weighted Euclidean distance) and a deficit solver that bridges tuition gaps with scholarships before ranking.
+- TECH 03
+- VALIDATION
+- Edge-case unit tests (zero capital vs private fees; 100% risk aversion vs startups). Numeric pipeline under 45 ms; under 1.2 s with Gemini. A mock API failure falls back to math cards.
+- 1 · PRESENTATION
+- React + Vite, Tailwind
+- Student portal: psychometrics, marks
+- Parent portal: budget, loan cap, risk, radius
+- PSCI gauges, cards, AI chat
+- 2 · API GATEWAY
+- FastAPI + Pydantic
+- Schema validation
+- Vector encoder maps traits to 0–1
+- HTTP / REST JSON
+- 3 · MATH ENGINE
+- NumPy / SciPy
+- Fit: cosine similarity
+- PSCI: weighted Euclidean
+- Financial solver: amortization, deficit
+- MAUT ranker
+- 5 · AI &amp; EXPLAINABILITY
+- Gemini 2.5 Flash
+- SWOT, mediation, exam schedule
+- Math-only fallback if API fails
+- 4 · DATA &amp; KNOWLEDGE (SQLite):  
+- career &amp; skills benchmarks  ·  regional demand &amp; geo-clusters  ·  scholarships (PM-Vidyalaxmi)
+
+### SLIDE 5
+- DATAQUEST 3.0  ·  ROUND 1
+- 05  
+- Feasibility &amp; Scope
+- Concrete boundaries · Operational run rate · Risk mitigation · Post-hackathon plans
+- 01 · BOUNDARIES
+- 1. SCOPE
+- dual-stakeholder portal (student psychometrics + parent finances); real-time vectorization and PSCI; deficit &amp; EMI solver with payback; regional STEAM and scholarship mapping; Gemini counselling chat.
+- live bank/credit APIs; live job-posting scrapers (curated regional demand index instead); native mobile apps.
+- 02 · ECONOMICS
+- 2. RUNNING COST
+- $0/month: FastAPI on Render free tier, React app on Vercel.
+- $0: SQLite and version-tagged JSON.
+- Gemini 2.5 Flash free tier for the MVP; a few thousand tokens per assessment, so well under ₹1 per student at scale (estimate).
+- Core math runs on CPU; no GPU.
+- 03 · CONTINGENCY
+- 3. RISKS &amp; FALLBACK
+- graceful degradation. Top-3 pathways, EMI and PSCI are computed locally in Python; the UI shows math cards and rule-based insights.
+- demand index and scholarship data are version-tagged JSON, updated offline with no schema migration.
+- 04 · HORIZON
+- 4. AFTER THE HACKATHON
+- Google Maps Places API to find nearby engineering hubs, incubators and government colleges.
+- Vidya Lakshmi portal and bank APIs for loan pre-qualification.
+- Hindi, Tamil, Telugu counselling for non-English-literate parents.
+
+### SLIDE 6
+- DATAQUEST 3.0  ·  ROUND 1
+- 06  
+- Impact &amp; Metrics
+- Primary measurable impact · Transparent calculation · Stakeholder advantages
+- PRIMARY METRIC
+- 85%
+- Reduction in Parent-Student Conflict (PSCI)
+- HOW IT WAS MEASURED
+- synthetic suite of 50 multi-stakeholder profiles across income brackets and risk tolerances (real-family pilot is next).
+- ΔPSCI = (PSCI before − PSCI after mediation) ÷ PSCI before × 100, averaged over 50 profiles.
+- 80%+ of students face decision confusion; 50%+ regret choices by 25 (UNESCO; Dahiya, SSRN).
+- IMPACT 01
+- WHAT IMPROVES
+- a 10-D psychometric match replaces guessing (90% choose blindly today).
+- EMI ceiling, 5-year payback and bridge-scholarship matching.
+- personal SWOT before admission.
+- IMPACT 02
+- WHO ELSE BENEFITS
+- financial clarity and risk mitigation, included in the decision.
+- local talent flows into manufacturing, EV and tech clusters, reducing out-migration.
+- expected gains in completion and lower loan defaults via pre-verified course ROI.
+- IMPACT 03
+- RISKS / MISUSE
+- scores read as absolute. Fix: probabilistic pathways and sensitivity sliders that show how a new skill or aid unlocks tracks.
+- stale fees or scholarship dates. Fix: version-controlled datasets aligned to official portal schemas.
+- Positioned as decision support alongside human counsellors.
+
+### SLIDE 7
+- DATAQUEST 3.0  ·  ROUND 1
+- 07  
+- Why This Project?
+- Direct contrast with today's alternatives · Unfair technical advantage
+- STATUS QUO
+- CURRENT APPROACH
+- research tools (Cheng 2026, C3-IoC 2023, Lahoud 2023, Wahrini 2026) match skills or traits but ignore household finances, parental risk tolerance and loan burden.
+- generic LLM wrappers hallucinate fees and careers; static personality quizzes fail under real market constraints.
+- Sarmurzin et al. (2026) flag automation bias and weak explainability; families are left with debt and conflict.
+- OUR SOLUTION
+- OUR APPROACH
+- 10-D student trait vector (RIASEC + aptitude) with a 4-D parent vector (liquid budget, debt cap, risk, mobility).
+- cosine similarity, Euclidean distance and reducing-balance amortization give feasibility, payback and PSCI.
+- Gemini 2.5 Flash explains the JSON output as a roadmap and bridge scholarships, with a math-only fallback.
+- MOAT / DIFFERENTIATION
+- KEY DIFFERENCE
+- Research solves isolated psychological matching (Cheng 2026) or skill mapping (C3-IoC, Wahrini 2026). PRISM treats career guidance as a multi-stakeholder constraint-satisfaction problem: it quantifies the Parent-Student Conflict Index (PSCI), closes tuition deficits through automated financial-aid matching, and generates Compromise Pathways that balance student ambition with family financial solvency.
+
+### SLIDE 8
+- DATAQUEST 3.0  ·  ROUND 1
+- 08  
+- Architecture Deep-Dive
+- Appendix · Full layer-by-layer system architecture diagram
+- FULL ARCHITECTURE
+- HOW TO READ IT
+- LAYER BY LAYER
+- 1 Presentation: 
+- two portals feed one analytics and chat view.
+- 2 Gateway: 
+- validates inputs, encodes vectors to 0–1.
+- 3 Engine: 
+- fit, PSCI and financial solver, then MAUT ranking.
+- 4 Data: 
+- benchmarks, regional demand, scholarships.
+- 5 AI: 
+- Gemini explains; pure math if the API fails.
+

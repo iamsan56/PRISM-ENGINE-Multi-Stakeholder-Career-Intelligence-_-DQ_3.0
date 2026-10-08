@@ -1,0 +1,343 @@
+[
+  {
+    "id": "pm_vidyalakshmi",
+    "name": "PM Vidya Lakshmi Education Loan Scheme",
+    "provider": "Ministry of Finance & MoE",
+    "type": "loan_subsidy",
+    "eligibility": {
+      "min_score_percent": 60,
+      "income_max_inr": 450000,
+      "domains": [
+        "all"
+      ],
+      "category": "all",
+      "level": "UG"
+    },
+    "eligibility_domains": [
+      "engineering",
+      "medicine",
+      "design",
+      "commerce",
+      "law",
+      "social_science",
+      "pure_science",
+      "arts",
+      "management",
+      "education",
+      "agriculture",
+      "emerging_tech"
+    ],
+    "benefit_inr": 400000,
+    "benefit_description": "Full interest subsidy during study period for loans up to INR 4 Lakhs",
+    "link": "https://www.vidyalakshmi.co.in",
+    "application_window": "August-November"
+  },
+  {
+    "id": "nsp_mcm",
+    "name": "NSP Merit Cum Means Scholarship",
+    "provider": "Ministry of Minority Affairs",
+    "type": "merit",
+    "eligibility": {
+      "min_score_percent": 50,
+      "income_max_inr": 250000,
+      "domains": [
+        "Engineering",
+        "Medical",
+        "Design",
+        "Management",
+        "STEAM"
+      ],
+      "category": "minority",
+      "level": "both"
+    },
+    "eligibility_domains": [
+      "design",
+      "medicine",
+      "engineering",
+      "commerce",
+      "management"
+    ],
+    "benefit_inr": 20000,
+    "benefit_description": "INR 20,000 per annum for technical and professional courses",
+    "link": "https://scholarships.gov.in",
+    "application_window": "August-October"
+  },
+  {
+    "id": "aicte_pragati",
+    "name": "AICTE Pragati Scholarship for Girls",
+    "provider": "AICTE",
+    "type": "category_based",
+    "eligibility": {
+      "min_score_percent": 60,
+      "income_max_inr": 800000,
+      "domains": [
+        "Engineering",
+        "STEAM"
+      ],
+      "category": "girls",
+      "level": "UG"
+    },
+    "eligibility_domains": [
+      "engineering",
+      "management"
+    ],
+    "benefit_inr": 50000,
+    "benefit_description": "INR 50,000 per annum for every year of study",
+    "link": "https://www.aicte-india.org/schemes",
+    "application_window": "September-December"
+  },
+  {
+    "id": "inspire_dst",
+    "name": "INSPIRE Scholarship (SHE)",
+    "provider": "Department of Science & Technology",
+    "type": "merit",
+    "eligibility": {
+      "min_score_percent": 95,
+      "income_max_inr": 9999999,
+      "domains": [
+        "Pure Science"
+      ],
+      "category": "all",
+      "level": "UG"
+    },
+    "eligibility_domains": [
+      "pure_science"
+    ],
+    "benefit_inr": 80000,
+    "benefit_description": "INR 80,000 annually for pursuing Natural/Basic Sciences",
+    "link": "https://online-inspire.gov.in/",
+    "application_window": "October-December"
+  },
+  {
+    "id": "aicte_saksham",
+    "name": "AICTE Saksham Scholarship",
+    "provider": "AICTE",
+    "type": "category_based",
+    "eligibility": {
+      "min_score_percent": 60,
+      "income_max_inr": 800000,
+      "domains": [
+        "Engineering",
+        "STEAM"
+      ],
+      "category": "disabled",
+      "level": "UG"
+    },
+    "eligibility_domains": [
+      "engineering",
+      "agriculture"
+    ],
+    "benefit_inr": 50000,
+    "benefit_description": "INR 50,000 per annum for differently-abled students in technical education",
+    "link": "https://www.aicte-india.org/schemes",
+    "application_window": "September-December"
+  },
+  {
+    "id": "central_sector_csis",
+    "name": "Central Sector Scholarship (CSIS)",
+    "provider": "Ministry of Education",
+    "type": "merit",
+    "eligibility": {
+      "min_score_percent": 80,
+      "income_max_inr": 450000,
+      "domains": [
+        "all"
+      ],
+      "category": "all",
+      "level": "UG"
+    },
+    "eligibility_domains": [
+      "engineering",
+      "medicine",
+      "design",
+      "commerce",
+      "law",
+      "social_science",
+      "pure_science",
+      "arts",
+      "management",
+      "education",
+      "agriculture",
+      "emerging_tech"
+    ],
+    "benefit_inr": 20000,
+    "benefit_description": "INR 20,000 per year for top-performing students from economically weaker backgrounds",
+    "link": "https://scholarships.gov.in",
+    "application_window": "October-December"
+  },
+  {
+    "id": "post_matric_sc_st",
+    "name": "Post Matric Scholarship (SC/ST)",
+    "provider": "Ministry of Social Justice & Empowerment",
+    "type": "category_based",
+    "eligibility": {
+      "min_score_percent": 0,
+      "income_max_inr": 250000,
+      "domains": [
+        "all"
+      ],
+      "category": "SC/ST",
+      "level": "UG"
+    },
+    "eligibility_domains": [
+      "engineering",
+      "medicine",
+      "design",
+      "commerce",
+      "law",
+      "social_science",
+      "pure_science",
+      "arts",
+      "management",
+      "education",
+      "agriculture",
+      "emerging_tech"
+    ],
+    "benefit_inr": 35000,
+    "benefit_description": "Full tuition fee reimbursement + maintenance allowance for SC/ST students",
+    "link": "https://scholarships.gov.in",
+    "application_window": "July-October"
+  },
+  {
+    "id": "lic_golden_jubilee",
+    "name": "LIC Golden Jubilee Scholarship",
+    "provider": "LIC of India",
+    "type": "need_based",
+    "eligibility": {
+      "min_score_percent": 60,
+      "income_max_inr": 250000,
+      "domains": [
+        "all"
+      ],
+      "category": "all",
+      "level": "UG"
+    },
+    "eligibility_domains": [
+      "engineering",
+      "medicine",
+      "design",
+      "commerce",
+      "law",
+      "social_science",
+      "pure_science",
+      "arts",
+      "management",
+      "education",
+      "agriculture",
+      "emerging_tech"
+    ],
+    "benefit_inr": 20000,
+    "benefit_description": "INR 20,000 per year for regular, full-time UG courses",
+    "link": "https://licindia.in",
+    "application_window": "August-October"
+  },
+  {
+    "id": "sitaram_jindal",
+    "name": "Sitaram Jindal Foundation Scholarship",
+    "provider": "Sitaram Jindal Foundation",
+    "type": "need_based",
+    "eligibility": {
+      "min_score_percent": 55,
+      "income_max_inr": 250000,
+      "domains": [
+        "Engineering",
+        "Medical",
+        "Commerce",
+        "Law",
+        "Arts"
+      ],
+      "category": "all",
+      "level": "both"
+    },
+    "eligibility_domains": [
+      "medicine",
+      "engineering",
+      "commerce",
+      "law",
+      "arts"
+    ],
+    "benefit_inr": 24000,
+    "benefit_description": "INR 2,000/month for meritorious students from economically weaker families",
+    "link": "https://www.sitaramjindalfoundation.org",
+    "application_window": "July-September"
+  },
+  {
+    "id": "maulana_azad_manf",
+    "name": "Maulana Azad National Fellowship",
+    "provider": "Ministry of Minority Affairs",
+    "type": "fellowship",
+    "eligibility": {
+      "min_score_percent": 55,
+      "income_max_inr": 250000,
+      "domains": [
+        "all"
+      ],
+      "category": "minority",
+      "level": "PG"
+    },
+    "eligibility_domains": [
+      "engineering",
+      "medicine",
+      "design",
+      "commerce",
+      "law",
+      "social_science",
+      "pure_science",
+      "arts",
+      "management",
+      "education",
+      "agriculture",
+      "emerging_tech"
+    ],
+    "benefit_inr": 180000,
+    "benefit_description": "JRF INR 31,000/month + SRF INR 35,000/month for minority community PG students",
+    "link": "https://www.ugc.gov.in",
+    "application_window": "December-February"
+  },
+  {
+    "id": "gate_scholarship",
+    "name": "GATE Scholarship (MHRD)",
+    "provider": "Ministry of Education",
+    "type": "merit",
+    "eligibility": {
+      "min_score_percent": 0,
+      "income_max_inr": 9999999,
+      "domains": [
+        "Engineering"
+      ],
+      "category": "all",
+      "level": "PG"
+    },
+    "eligibility_domains": [
+      "engineering"
+    ],
+    "benefit_inr": 96000,
+    "benefit_description": "INR 8,000/month stipend for GATE-qualified students pursuing M.Tech at recognized institutions",
+    "link": "https://gate.iitkgp.ac.in",
+    "application_window": "Automatic on GATE qualification"
+  },
+  {
+    "id": "kvpy_fellowship",
+    "name": "KVPY Fellowship",
+    "provider": "Department of Science & Technology",
+    "type": "fellowship",
+    "eligibility": {
+      "min_score_percent": 75,
+      "income_max_inr": 9999999,
+      "domains": [
+        "Pure Science",
+        "Engineering"
+      ],
+      "category": "all",
+      "level": "UG"
+    },
+    "eligibility_domains": [
+      "engineering",
+      "pure_science"
+    ],
+    "benefit_inr": 96000,
+    "benefit_description": "INR 5,000\u20137,000/month fellowship for students pursuing science and research",
+    "link": "https://kvpy.iisc.ac.in",
+    "application_window": "July-August"
+  }
+]

@@ -1,0 +1,863 @@
+{
+  "careers": [
+    {
+      "career_id": "software_engineer",
+      "name": "Software Engineer",
+      "riasec": [
+        0.435,
+        0.842,
+        0.228,
+        0.135,
+        0.145,
+        0.77
+      ],
+      "aptitude": [
+        0.539,
+        0.672,
+        0.172,
+        0.4
+      ],
+      "domain": "engineering",
+      "base_fee_inr": 1500000,
+      "expected_entry_salary_inr": 600000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "JEE_Main",
+        "JEE_Advanced"
+      ],
+      "domains": [
+        "engineering",
+        "social_science"
+      ]
+    },
+    {
+      "career_id": "civil_engineer",
+      "name": "Civil Engineer",
+      "riasec": [
+        0.905,
+        0.692,
+        0.202,
+        0.115,
+        0.277,
+        0.602
+      ],
+      "aptitude": [
+        0.727,
+        0.75,
+        0.454,
+        0.4
+      ],
+      "domain": "engineering",
+      "base_fee_inr": 1200000,
+      "expected_entry_salary_inr": 350000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "JEE_Main",
+        "JEE_Advanced"
+      ],
+      "domains": [
+        "engineering"
+      ]
+    },
+    {
+      "career_id": "biomedical_engineer",
+      "name": "Biomedical Engineer",
+      "riasec": [
+        0.74,
+        0.958,
+        0.185,
+        0.242,
+        0.14,
+        0.58
+      ],
+      "aptitude": [
+        0.703,
+        0.75,
+        0.328,
+        0.4
+      ],
+      "domain": "engineering",
+      "base_fee_inr": 1400000,
+      "expected_entry_salary_inr": 400000,
+      "growth_outlook": "low",
+      "exam_ids": [
+        "JEE_Main",
+        "JEE_Advanced"
+      ],
+      "domains": [
+        "engineering"
+      ]
+    },
+    {
+      "career_id": "mechanical_engineer",
+      "name": "Mechanical Engineer",
+      "riasec": [
+        0.898,
+        0.687,
+        0.17,
+        0.037,
+        0.162,
+        0.638
+      ],
+      "aptitude": [
+        0.719,
+        0.726,
+        0.375,
+        0.4
+      ],
+      "domain": "engineering",
+      "base_fee_inr": 1200000,
+      "expected_entry_salary_inr": 350000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "JEE_Main",
+        "JEE_Advanced"
+      ],
+      "domains": [
+        "engineering"
+      ]
+    },
+    {
+      "career_id": "chemical_engineer",
+      "name": "Chemical Engineer",
+      "riasec": [
+        0.878,
+        0.792,
+        0.133,
+        0.003,
+        0.142,
+        0.59
+      ],
+      "aptitude": [
+        0.719,
+        0.703,
+        0.265,
+        0.4
+      ],
+      "domain": "engineering",
+      "base_fee_inr": 1200000,
+      "expected_entry_salary_inr": 400000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "JEE_Main",
+        "JEE_Advanced",
+        "CUET_UG"
+      ],
+      "domains": [
+        "engineering",
+        "education"
+      ]
+    },
+    {
+      "career_id": "doctor_mbbs",
+      "name": "Doctor (MBBS/MD)",
+      "riasec": [
+        0.458,
+        0.847,
+        0.075,
+        0.868,
+        0.223,
+        0.492
+      ],
+      "aptitude": [
+        0.625,
+        0.876,
+        0.188,
+        0.6
+      ],
+      "domain": "medicine",
+      "base_fee_inr": 7500000,
+      "expected_entry_salary_inr": 700000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "NEET_UG"
+      ],
+      "domains": [
+        "medicine"
+      ]
+    },
+    {
+      "career_id": "dentist",
+      "name": "Dentist",
+      "riasec": [
+        0.705,
+        0.747,
+        0.028,
+        0.568,
+        0.167,
+        0.452
+      ],
+      "aptitude": [
+        0.625,
+        0.719,
+        0.359,
+        0.6
+      ],
+      "domain": "medicine",
+      "base_fee_inr": 2500000,
+      "expected_entry_salary_inr": 400000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "NEET_UG"
+      ],
+      "domains": [
+        "medicine"
+      ]
+    },
+    {
+      "career_id": "pharmacist",
+      "name": "Pharmacist",
+      "riasec": [
+        0.303,
+        0.778,
+        0.08,
+        0.647,
+        0.27,
+        0.593
+      ],
+      "aptitude": [
+        0.648,
+        0.765,
+        0.14,
+        0.6
+      ],
+      "domain": "medicine",
+      "base_fee_inr": 800000,
+      "expected_entry_salary_inr": 300000,
+      "growth_outlook": "low",
+      "exam_ids": [
+        "NEET_UG"
+      ],
+      "domains": [
+        "medicine"
+      ]
+    },
+    {
+      "career_id": "nursing",
+      "name": "Registered Nurse",
+      "riasec": [
+        0.41,
+        0.618,
+        0.057,
+        0.762,
+        0.23,
+        0.625
+      ],
+      "aptitude": [
+        0.633,
+        0.734,
+        0.312,
+        0.6
+      ],
+      "domain": "medicine",
+      "base_fee_inr": 600000,
+      "expected_entry_salary_inr": 300000,
+      "growth_outlook": "medium",
+      "exam_ids": [
+        "NEET_UG"
+      ],
+      "domains": [
+        "medicine"
+      ]
+    },
+    {
+      "career_id": "physiotherapist",
+      "name": "Physiotherapist",
+      "riasec": [
+        0.555,
+        0.645,
+        0.195,
+        0.818,
+        0.248,
+        0.345
+      ],
+      "aptitude": [
+        0.571,
+        0.742,
+        0.25,
+        0.6
+      ],
+      "domain": "medicine",
+      "base_fee_inr": 700000,
+      "expected_entry_salary_inr": 300000,
+      "growth_outlook": "low",
+      "exam_ids": [
+        "NEET_UG"
+      ],
+      "domains": [
+        "medicine",
+        "agriculture"
+      ]
+    },
+    {
+      "career_id": "ux_designer",
+      "name": "UI/UX Designer",
+      "riasec": [
+        0.265,
+        0.647,
+        0.58,
+        0.2,
+        0.355,
+        0.567
+      ],
+      "aptitude": [
+        0.461,
+        0.626,
+        0.218,
+        0.4
+      ],
+      "domain": "design",
+      "base_fee_inr": 1800000,
+      "expected_entry_salary_inr": 500000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "NID_DAT",
+        "UCEED"
+      ],
+      "domains": [
+        "design"
+      ]
+    },
+    {
+      "career_id": "graphic_designer",
+      "name": "Graphic Designer",
+      "riasec": [
+        0.397,
+        0.31,
+        1.0,
+        0.193,
+        0.405,
+        0.487
+      ],
+      "aptitude": [
+        0.398,
+        0.648,
+        0.265,
+        0.4
+      ],
+      "domain": "design",
+      "base_fee_inr": 800000,
+      "expected_entry_salary_inr": 300000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "NID_DAT",
+        "UCEED"
+      ],
+      "domains": [
+        "design"
+      ]
+    },
+    {
+      "career_id": "architect",
+      "name": "Architect",
+      "riasec": [
+        0.653,
+        0.48,
+        0.522,
+        0.255,
+        0.442,
+        0.573
+      ],
+      "aptitude": [
+        0.688,
+        0.78,
+        0.562,
+        0.4
+      ],
+      "domain": "design",
+      "base_fee_inr": 1500000,
+      "expected_entry_salary_inr": 350000,
+      "growth_outlook": "low",
+      "exam_ids": [
+        "NID_DAT",
+        "UCEED"
+      ],
+      "domains": [
+        "design"
+      ]
+    },
+    {
+      "career_id": "fashion_designer",
+      "name": "Fashion Designer",
+      "riasec": [
+        0.557,
+        0.195,
+        1.0,
+        0.225,
+        0.493,
+        0.323
+      ],
+      "aptitude": [
+        0.476,
+        0.696,
+        0.359,
+        0.4
+      ],
+      "domain": "design",
+      "base_fee_inr": 2000000,
+      "expected_entry_salary_inr": 350000,
+      "growth_outlook": "medium",
+      "exam_ids": [
+        "NID_DAT",
+        "UCEED"
+      ],
+      "domains": [
+        "design"
+      ]
+    },
+    {
+      "career_id": "film_director",
+      "name": "Film Director",
+      "riasec": [
+        0.188,
+        0.207,
+        0.857,
+        0.353,
+        0.797,
+        0.427
+      ],
+      "aptitude": [
+        0.554,
+        0.766,
+        0.438,
+        0.4
+      ],
+      "domain": "arts",
+      "base_fee_inr": 1500000,
+      "expected_entry_salary_inr": 300000,
+      "growth_outlook": "medium",
+      "exam_ids": [
+        "NID_DAT",
+        "CUET_UG"
+      ],
+      "domains": [
+        "arts"
+      ]
+    },
+    {
+      "career_id": "chartered_accountant",
+      "name": "Chartered Accountant",
+      "riasec": [
+        0.023,
+        0.428,
+        0.013,
+        0.188,
+        0.478,
+        1.0
+      ],
+      "aptitude": [
+        0.696,
+        0.696,
+        0.155,
+        0.4
+      ],
+      "domain": "commerce",
+      "base_fee_inr": 500000,
+      "expected_entry_salary_inr": 700000,
+      "growth_outlook": "medium",
+      "exam_ids": [
+        "CUET_UG",
+        "CA_Foundation"
+      ],
+      "domains": [
+        "commerce"
+      ]
+    },
+    {
+      "career_id": "corporate_lawyer",
+      "name": "Corporate Lawyer",
+      "riasec": [
+        0.02,
+        0.563,
+        0.233,
+        0.413,
+        0.752,
+        0.598
+      ],
+      "aptitude": [
+        0.57,
+        0.914,
+        0.202,
+        0.4
+      ],
+      "domain": "law",
+      "base_fee_inr": 2500000,
+      "expected_entry_salary_inr": 800000,
+      "growth_outlook": "low",
+      "exam_ids": [
+        "CLAT"
+      ],
+      "domains": [
+        "law"
+      ]
+    },
+    {
+      "career_id": "financial_analyst",
+      "name": "Financial Analyst",
+      "riasec": [
+        0.0,
+        0.677,
+        0.13,
+        0.208,
+        0.682,
+        0.757
+      ],
+      "aptitude": [
+        0.5,
+        0.5,
+        0.5,
+        0.4
+      ],
+      "domain": "commerce",
+      "base_fee_inr": 1500000,
+      "expected_entry_salary_inr": 500000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "CUET_UG",
+        "CA_Foundation"
+      ],
+      "domains": [
+        "commerce"
+      ]
+    },
+    {
+      "career_id": "marketing_manager",
+      "name": "Marketing Manager",
+      "riasec": [
+        0.0,
+        0.317,
+        0.242,
+        0.303,
+        1.0,
+        0.617
+      ],
+      "aptitude": [
+        0.625,
+        0.758,
+        0.235,
+        0.4
+      ],
+      "domain": "commerce",
+      "base_fee_inr": 1800000,
+      "expected_entry_salary_inr": 500000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "CUET_UG",
+        "CA_Foundation"
+      ],
+      "domains": [
+        "commerce"
+      ]
+    },
+    {
+      "career_id": "hr_manager",
+      "name": "HR Manager",
+      "riasec": [
+        0.043,
+        0.218,
+        0.083,
+        0.48,
+        1.0,
+        0.757
+      ],
+      "aptitude": [
+        0.625,
+        0.836,
+        0.155,
+        0.4
+      ],
+      "domain": "management",
+      "base_fee_inr": 1500000,
+      "expected_entry_salary_inr": 400000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "JEE_Main"
+      ],
+      "domains": [
+        "management"
+      ]
+    },
+    {
+      "career_id": "data_scientist",
+      "name": "Data Scientist",
+      "riasec": [
+        0.457,
+        1.0,
+        0.325,
+        0.167,
+        0.248,
+        0.633
+      ],
+      "aptitude": [
+        0.679,
+        0.727,
+        0.281,
+        0.4
+      ],
+      "domain": "pure_science",
+      "base_fee_inr": 1800000,
+      "expected_entry_salary_inr": 800000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "CUET_UG"
+      ],
+      "domains": [
+        "pure_science"
+      ]
+    },
+    {
+      "career_id": "research_physicist",
+      "name": "Research Physicist",
+      "riasec": [
+        0.657,
+        1.0,
+        0.292,
+        0.187,
+        0.128,
+        0.633
+      ],
+      "aptitude": [
+        0.844,
+        0.836,
+        0.359,
+        0.4
+      ],
+      "domain": "pure_science",
+      "base_fee_inr": 800000,
+      "expected_entry_salary_inr": 500000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "CUET_UG"
+      ],
+      "domains": [
+        "pure_science"
+      ]
+    },
+    {
+      "career_id": "environmental_scientist",
+      "name": "Environmental Scientist",
+      "riasec": [
+        0.627,
+        1.0,
+        0.145,
+        0.292,
+        0.26,
+        0.553
+      ],
+      "aptitude": [
+        0.64,
+        0.765,
+        0.298,
+        0.4
+      ],
+      "domain": "pure_science",
+      "base_fee_inr": 700000,
+      "expected_entry_salary_inr": 400000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "CUET_UG"
+      ],
+      "domains": [
+        "pure_science"
+      ]
+    },
+    {
+      "career_id": "mathematician",
+      "name": "Mathematician / Actuary",
+      "riasec": [
+        0.37,
+        1.0,
+        0.372,
+        0.158,
+        0.018,
+        0.672
+      ],
+      "aptitude": [
+        0.844,
+        0.78,
+        0.234,
+        0.4
+      ],
+      "domain": "pure_science",
+      "base_fee_inr": 800000,
+      "expected_entry_salary_inr": 600000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "CUET_UG"
+      ],
+      "domains": [
+        "pure_science"
+      ]
+    },
+    {
+      "career_id": "statistician",
+      "name": "Statistician",
+      "riasec": [
+        0.19,
+        0.93,
+        0.128,
+        0.118,
+        0.137,
+        0.838
+      ],
+      "aptitude": [
+        0.813,
+        0.758,
+        0.202,
+        0.4
+      ],
+      "domain": "pure_science",
+      "base_fee_inr": 800000,
+      "expected_entry_salary_inr": 500000,
+      "growth_outlook": "medium",
+      "exam_ids": [
+        "CUET_UG"
+      ],
+      "domains": [
+        "pure_science"
+      ]
+    },
+    {
+      "career_id": "ai_ml_engineer",
+      "name": "AI/ML Engineer",
+      "riasec": [
+        0.435,
+        0.842,
+        0.228,
+        0.135,
+        0.145,
+        0.77
+      ],
+      "aptitude": [
+        0.539,
+        0.672,
+        0.172,
+        0.4
+      ],
+      "domain": "law",
+      "base_fee_inr": 1800000,
+      "expected_entry_salary_inr": 900000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "CLAT"
+      ],
+      "domains": [
+        "law"
+      ]
+    },
+    {
+      "career_id": "cybersecurity_analyst",
+      "name": "Cybersecurity Analyst",
+      "riasec": [
+        0.427,
+        0.733,
+        0.057,
+        0.185,
+        0.308,
+        0.847
+      ],
+      "aptitude": [
+        0.562,
+        0.727,
+        0.219,
+        0.4
+      ],
+      "domain": "commerce",
+      "base_fee_inr": 1500000,
+      "expected_entry_salary_inr": 600000,
+      "growth_outlook": "high",
+      "exam_ids": [
+        "CUET_UG",
+        "CA_Foundation"
+      ],
+      "domains": [
+        "commerce"
+      ]
+    },
+    {
+      "career_id": "robotics_engineer",
+      "name": "Robotics Engineer",
+      "riasec": [
+        0.863,
+        0.768,
+        0.132,
+        0.082,
+        0.132,
+        0.58
+      ],
+      "aptitude": [
+        0.704,
+        0.735,
+        0.422,
+        0.4
+      ],
+      "domain": "education",
+      "base_fee_inr": 1600000,
+      "expected_entry_salary_inr": 600000,
+      "growth_outlook": "low",
+      "exam_ids": [
+        "CUET_UG"
+      ],
+      "domains": [
+        "education"
+      ]
+    },
+    {
+      "career_id": "game_developer",
+      "name": "Game Developer",
+      "riasec": [
+        0.435,
+        0.842,
+        0.228,
+        0.135,
+        0.145,
+        0.77
+      ],
+      "aptitude": [
+        0.539,
+        0.672,
+        0.172,
+        0.4
+      ],
+      "domain": "commerce",
+      "base_fee_inr": 1500000,
+      "expected_entry_salary_inr": 500000,
+      "growth_outlook": "low",
+      "exam_ids": [
+        "CUET_UG",
+        "CA_Foundation"
+      ],
+      "domains": [
+        "commerce"
+      ]
+    },
+    {
+      "career_id": "edtech_entrepreneur",
+      "name": "EdTech Entrepreneur",
+      "riasec": [
+        0.043,
+        0.342,
+        0.193,
+        0.423,
+        0.993,
+        0.662
+      ],
+      "aptitude": [
+        0.656,
+        0.843,
+        0.298,
+        0.4
+      ],
+      "domain": "social_science",
+      "base_fee_inr": 1500000,
+      "expected_entry_salary_inr": 400000,
+      "growth_outlook": "medium",
+      "exam_ids": [
+        "JEE_Main"
+      ],
+      "domains": [
+        "social_science"
+      ]
+    }
+  ]
+}

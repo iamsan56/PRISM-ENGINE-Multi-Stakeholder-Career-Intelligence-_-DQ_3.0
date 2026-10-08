@@ -1,0 +1,135 @@
+[
+  {
+    "id": "JEE_Main",
+    "name": "Joint Entrance Examination (Main)",
+    "conducting_body": "NTA",
+    "domains": [
+      "engineering"
+    ],
+    "type": "entrance",
+    "level": "UG",
+    "typical_prep_months": 24,
+    "opens_to": [
+      "NITs",
+      "IIITs",
+      "GFTIs"
+    ],
+    "exam_id": "JEE_Main"
+  },
+  {
+    "id": "JEE_Advanced",
+    "name": "Joint Entrance Examination (Advanced)",
+    "conducting_body": "IITs",
+    "domains": [
+      "engineering"
+    ],
+    "type": "entrance",
+    "level": "UG",
+    "typical_prep_months": 24,
+    "opens_to": [
+      "IITs",
+      "ISM"
+    ],
+    "exam_id": "JEE_Advanced"
+  },
+  {
+    "id": "NEET_UG",
+    "name": "National Eligibility cum Entrance Test (UG)",
+    "conducting_body": "NTA",
+    "domains": [
+      "medicine"
+    ],
+    "type": "entrance",
+    "level": "UG",
+    "typical_prep_months": 24,
+    "opens_to": [
+      "AIIMS",
+      "JIPMER",
+      "All Govt/Private Medical Colleges"
+    ],
+    "exam_id": "NEET_UG"
+  },
+  {
+    "id": "CLAT",
+    "name": "Common Law Admission Test",
+    "conducting_body": "Consortium of NLUs",
+    "domains": [
+      "law"
+    ],
+    "type": "entrance",
+    "level": "UG",
+    "typical_prep_months": 12,
+    "opens_to": [
+      "National Law Universities (NLUs)"
+    ],
+    "exam_id": "CLAT"
+  },
+  {
+    "id": "NID_DAT",
+    "name": "NID Design Aptitude Test",
+    "conducting_body": "National Institute of Design",
+    "domains": [
+      "design",
+      "arts"
+    ],
+    "type": "entrance",
+    "level": "UG",
+    "typical_prep_months": 12,
+    "opens_to": [
+      "NID Campuses"
+    ],
+    "exam_id": "NID_DAT"
+  },
+  {
+    "id": "UCEED",
+    "name": "Undergraduate Common Entrance Examination for Design",
+    "conducting_body": "IIT Bombay",
+    "domains": [
+      "design"
+    ],
+    "type": "entrance",
+    "level": "UG",
+    "typical_prep_months": 12,
+    "opens_to": [
+      "IIT Bombay",
+      "IIT Guwahati",
+      "IIT Hyderabad",
+      "IIITDM Jabalpur"
+    ],
+    "exam_id": "UCEED"
+  },
+  {
+    "id": "CUET_UG",
+    "name": "Common University Entrance Test",
+    "conducting_body": "NTA",
+    "domains": [
+      "commerce",
+      "education",
+      "pure_science",
+      "arts"
+    ],
+    "type": "entrance",
+    "level": "UG",
+    "typical_prep_months": 6,
+    "opens_to": [
+      "Central Universities",
+      "State Universities"
+    ],
+    "exam_id": "CUET_UG"
+  },
+  {
+    "id": "CA_Foundation",
+    "name": "CA Foundation Course",
+    "conducting_body": "ICAI",
+    "domains": [
+      "commerce"
+    ],
+    "type": "entrance",
+    "level": "UG",
+    "typical_prep_months": 6,
+    "opens_to": [
+      "ICAI CA Program"
+    ],
+    "exam_id": "CA_Foundation"
+  }
+]

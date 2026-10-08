@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #030712;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 70% 50%,
+      #17113f 0%,
+      #080b1d 35%,
+      #030712 75%
+    );
+}
+
+canvas {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  z-index: 1;
+}
+
+.hero-text {
+  position: absolute;
+  left: 8%;
+  top: 22%;
+  z-index: 20;
+  color: white;
+  pointer-events: auto;
+}
+
+.eyebrow {
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: #a78bfa;
+  margin-bottom: 18px;
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-size: 80px;
+  letter-spacing: 12px;
+  color: white;
+  font-weight: 700;
+}
+
+.hero-text p {
+  margin-top: 18px;
+  font-size: 24px;
+  color: #c4b5fd;
+}
+.assessment-page {
+  min-height: 100vh;
+  background: #050816;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+}
+
+.assessment-container {
+  width: 100%;
+  max-width: 650px;
+}
+
+.assessment-container h1 {
+  font-size: 48px;
+}
+
+.assessment-container h2 {
+  margin-top: 35px;
+  color: #a78bfa;
+}
+
+.assessment-container input {
+  width: 100%;
+
+  padding: 15px;
+  margin-top: 12px;
+
+  border: 1px solid #292550;
+  border-radius: 10px;
+
+  background: #0b1025;
+  color: white;
+
+  font-size: 16px;
+}
+
+.assessment-container button {
+  margin-top: 30px;
+
+  padding: 15px 25px;
+
+  border: none;
+  border-radius: 30px;
+
+  background: #7c3aed;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.results-page {
+  min-height: 100vh;
+
+  background: #050816;
+
+  color: white;
+
+  padding: 80px;
+}
+
+.results-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.career-card {
+  margin-top: 25px;
+
+  padding: 30px;
+
+  border: 1px solid #292550;
+  border-radius: 20px;
+
+  background: rgba(20, 17, 50, 0.7);
+}
+
+.career-card h2 {
+  color: #c084fc;
+}
+
+.career-card button {
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: 25px;
+
+  background: #7c3aed;
+
+  color: white;
+
+  cursor: pointer;
+}
+.start-button {
+  position: relative;
+  z-index: 30;
+  pointer-events: auto;
+
+  margin-top: 28px;
+  padding: 15px 30px;
+
+  border: none;
+  border-radius: 40px;
+
+  background: linear-gradient(
+    135deg,
+    #7c3aed,
+    #a855f7
+  );
+
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
